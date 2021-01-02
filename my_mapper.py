@@ -13,7 +13,7 @@ from determine_edges import determine_edges
 def my_mapper(data, function, length, percent, cluster_method):
 
     covers = determine_covers(data, function, length, percent)
-    clusters = determine_clusters(data, covers, cluster_method)
+    clusters = determine_clusters(covers, cluster_method)
     edge = determine_edges(clusters)
 
     return edge

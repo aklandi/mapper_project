@@ -23,8 +23,7 @@ def eccentric(X, p = 1):
     # this is the max norm
     if p == 0:
         
-        # for max comparison, always use smallest number possible 
-        # for initialization
+        # for max comparison, always use smallest number possible for initialization
         max = np.array([-2e-16 for i in range(n)])
         
         for i in range(n):

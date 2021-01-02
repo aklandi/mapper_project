@@ -5,14 +5,13 @@ from my_singleLinkage import my_singleLinkage
 '''
 This function determines the clusters of data points 
 
-param: data, a data array of the points in topological space X
 param: covers, a list of the covers, and each element contains a list of
             the points from data under each cover
 param: cluster_method, a string indicating which clustering method is preferred
             with a choice of dbscan, kmeans, and single linkage.
 returns: clusters, a list of the clusters under each cover
 '''
-def determine_clusters(data, covers, cluster_method):
+def determine_clusters(covers, cluster_method):
     
     # create an empty list to contain the clusters within each cover
     clusters = []

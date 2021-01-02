@@ -65,8 +65,7 @@ X3, y = make_circles(n_samples = 750, noise = 0.05, factor = 0.5)
 plot5 = fig.add_subplot(3,2,5)
 plot5.scatter(X3[:,0], X3[:,1], marker = "o")
 
-e3 = my_mapper(X3, function = "density", length = 0.75, percent = 0.5, cluster_method = ["dbscan", 0.2, 5])
-
+e3 = my_mapper(X3, function = "default", length = 0.75, percent = 0.5, cluster_method = ["dbscan", 0.2, 5])
 #plot the data
 plot6 = fig.add_subplot(3,2,6)
 # for each element in our list of edges
