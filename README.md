@@ -11,3 +11,4 @@ In this repository is a set of python programs used to imitate the mapper method
 * *density.py* = calculates the density as described in the paper cited above
 * *mapper_test.png* = a result from a positive run of *mapper_project.py*.
 * *my_singleLinkage.py* = a method that conducts clustering using single linkage.
+* *steam_study.py* = an application of my_mapper to a real data set found on Kaggle.
